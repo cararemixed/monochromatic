@@ -1,0 +1,73 @@
+{
+    "name": "Monochromatic Light",
+    "globals": {
+        "background": "rgb(20, 15, 15)",
+        "foreground": "rgb(210, 210, 210)",
+        "caret": "rgb(180, 180, 180)",
+        "selection": "#333A"
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#77777",
+            "font_style": "italic"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword, storage",
+            "font_style": "bold"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "font_style": "bold"
+        },
+        {
+            "name": "String",
+            "scope": "settings",
+            "font_style": "italic"
+        },
+        {
+            "name": "String Interpolation",
+            "scope": "constant.character.escape, string.source",
+            "font_style": "normal"
+        },
+        {
+            "name": "Function",
+            "scope": "entity.name.function.definition.erlang",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function Clause",
+            "scope": "entity.name.function.erlang",
+            "font_style": "bold",
+            "foreground": "#888888"
+        },
+        {
+            "name": "Function-body Arrow",
+            "scope": "punctuation.separator.function.head-body.erlang",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function Terminator",
+            "scope": "punctuation.terminator.function.erlang",
+            "font_style": "bold"
+        },
+        {
+            "name": "Record Type",
+            "scope": "storage.type.record.eralng",
+            "font_style": "italic"
+        },
+        {
+            "name": "Record Field",
+            "scope": "storage.type.record.field.erlang",
+            "font_style": "italic"
+        },
+        {
+            "name": "Variable Omitted",
+            "scope": "variable.language.omitted.erlang",
+            "font_style": "bold"
+        }
+    ]
+}
