@@ -35,12 +35,12 @@
         },
         {
             "name": "Function",
-            "scope": "entity.name.function.definition",
+            "scope": "entity.name.function.definition, entity.name.function.public",
             "font_style": "bold"
         },
         {
             "name": "Function Clause",
-            "scope": "entity.name.function",
+            "scope": "entity.name.function - entity.name.function.public - entity.name.function.private",
             "font_style": "bold",
             "foreground": "#888888"
         },
