@@ -25,7 +25,7 @@
         },
         {
             "name": "String",
-            "scope": "settings",
+            "scope": "string",
             "font_style": "italic"
         },
         {
